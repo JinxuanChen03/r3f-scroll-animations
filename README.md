@@ -1,5 +1,4 @@
-# R3F Learning - [React Three Fiber tutorial - Scroll Animations](https://www.youtube.com/watch?v=pXpckHDDNYo&list=PLpepLKamtPjiUF6PvVUbIFhx9HaS0qJs_)
-Youtuber: [@Wawa Sensei](https://www.youtube.com/@WawaSensei)
+# [React Three Fiber tutorial - Scroll Animations](https://www.youtube.com/watch?v=pXpckHDDNYo&list=PLpepLKamtPjiUF6PvVUbIFhx9HaS0qJs_)
 
 Working with:
 - [React Tree Fiber](https://r3f.netlify.app/docs)
