@@ -7,12 +7,15 @@ import { Canvas } from '@react-three/fiber'
 
 function App() {
   return (
+    //get closer by defaut
     //添加画布 @camera: 相机
     //添加相机 @fov: 视野 @position: 位置
-    <Canvas camera={{
-      fov: 64,
-      position: [2.3,1.5,2.3],
-    }}>
+    <Canvas 
+      camera={{
+        fov: 64,
+        position: [2.3,1.5,2.3],
+      }}
+    >
       <Experience />
     </Canvas>
   );
