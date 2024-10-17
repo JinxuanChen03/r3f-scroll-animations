@@ -2,6 +2,7 @@ import { OrbitControls, ScrollControls } from "@react-three/drei"
 import { BoxGeometry, MeshNormalMaterial } from "three"
 import { Office } from "./Office";
 import { Face } from "three/examples/jsm/Addons.js";
+import { Overlay } from "./Overlay";
 
 export const Experience = () => {
   return (
@@ -12,6 +13,7 @@ export const Experience = () => {
       <OrbitControls enableZoom={false} />
       //添加滚动控制器 @pages: 页面数量 @damping: 阻尼
       <ScrollControls pages={3} damping={0.25} >
+        <Overlay />
         <Office />
       </ScrollControls>
         
